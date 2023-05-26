@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Mis estilos css -->
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha384-xmfFx78ds5Ko+0aX7SfzJzxFZYZ7xYz9+dc/5yKZMHUJXd5E9HwV0eHv/cUvRtwR" crossorigin="anonymous">
+
+  <title>Nahuel Brito - Portfolio</title>
+</head>
+
+<body>
+
+
+  <!-- Nav -->
+  <nav class="navbar navbar-expand navbar-light bg-light fixed-top hide">
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span style=" display: none;" class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end  " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#seccion2">Skills</a>
+          <a class="nav-link" href="#trabajos">Trabajos</a>
+          <!-- <div class="d-flex justify-content-center p-1">
+            <button id="toggleButton" onclick="cambiar()" class="toggle btn btn-primary">
+              <i id="ico" class="fas fa-moon"></i>
+            </button>
+          </div> -->
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Foto portada -->
+
+
+  <div id="divPortada">
+    <div class="container">
+      <a href="#skils"> <img id="imgPortada" src="nara.jpeg" alt="Hi!"></a>
+
+      <!-- Presentacion -->
+      <h1 id="presentacion" class="p-5 ">NAHUEL BRITO</h1>
+      <div id="descripcion" class="container col-md-6">
+        Desarrollador full-stack</div>
+
+
+
+
+
+
+      <!-- barra fltante de redes sociales -->
+      <div class="container">
+
+        <i id="sol" class="fa-sharp fa-solid fa-sun-bright"></i>
+      </div>
+      <div class="social-bar">
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <section id="seccion2">
+    <!-- skills -->
+    <div id="container-skill" class="container">
+      <div id="skils" class="container-fluid col-md-12 justify-content-end g-3">
+        <h3>MIS HABILIDADES</h3>
+        <div class="skill">
+          <h5>JavaScript</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="10"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h5>HTML</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
+              aria-valuemax="10"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h5>CSS</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="10"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h5>Bootstrap</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="10"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h5>jQuery</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="10"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h5>SQL Server</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="10"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section>
+    <div id="trabajos" class="container-fluid ">
+
+      <div class="row row-cols-1 row-cols-md-4 m-0 d-flex justify-content-center P-5">
+        <h1 class="mb-4 text-center">ALGUNOS TRABAJOS</h1>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="login.png" class="card-img-top" alt="login">
+            <div class="card-body">
+              <h5 class="card-title">Login</h5>
+              <p class="card-text">Este es un login hecho en Bootstrap 5, con ajustes en Css y validaciones en
+                Javascript</p>
+            </div>
+            <div class="m-3 p-3">
+              <a href="login.html">
+                <button class="btn btn-success w-100 ver">Ver</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="todoList.png" class="card-img-top  " alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Lista de tareas</h5>
+              <p class="card-text">Esta es mi primer lista de tareas hecha con las tecnologias de html, css y funcional
+                con javascript</p>
+            </div>
+            <div class="m-3 p-3">
+              <a href="login.html">
+                <button class="btn btn-success w-100 ver">Ver</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="formu.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Formulario</h5>
+              <p class="card-text">Este es un formulario hecho totalmente con Bootstrap 5 y validado con Javascript</p>
+            </div>
+            <div class="m-3 p-3">
+              <a href="form.html">
+                <button class="btn btn-success w-100 ver">Ver</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Trabajos -->
+
+
+
+
+  <!-- Bootstrap js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+  <script src="main.js"></script>
+
+
+
+  <!-- <div id="containerFlecha" class="container-fluid  col-md-12 " >
+          <a href="#trabajos">  <i id="flecha" class="fas fa-arrow-down"></i>
+          </a>
+          </div> -->
+
+  <footer id="footer">
+    <div class="container-fluid justify-content-center">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>
+            Diseñado por Nahuel Brito
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
